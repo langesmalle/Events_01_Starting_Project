@@ -5,13 +5,13 @@ on:
       - opened
     branches:
       - main
-      - dev-*
-      - dev/**
+      - 'dev-*'
+      - 'dev/**'
   workflow_dispatch:
   push:
     branches:
       - main
-      - dev-*
+      - 'dev-*'
     paths-ignore:
       - .github/workflows/*
 jobs:
